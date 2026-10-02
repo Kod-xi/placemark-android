@@ -1,4 +1,4 @@
-package com.example.placemark.models
+package org.setu.placemark.models
 
 interface PlacemarkStore {
 

@@ -1,7 +1,5 @@
 package org.setu.placemark.models
 
-import com.example.placemark.models.PlacedMark
-import com.example.placemark.models.PlacemarkStore
 import java.util.concurrent.atomic.AtomicLong
 
 class PlacemarkMemStore : PlacemarkStore {
