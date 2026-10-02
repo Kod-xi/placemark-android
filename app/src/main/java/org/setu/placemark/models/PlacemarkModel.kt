@@ -1,4 +1,4 @@
-package com.example.placemark.models
+package org.setu.placemark.models
 
 data class PlacedMark(
     var id:  Long = 0L,
