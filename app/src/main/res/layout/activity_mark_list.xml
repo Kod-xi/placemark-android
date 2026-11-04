@@ -7,4 +7,32 @@
     android:layout_height="match_parent"
     tools:context="org.setu.placemark.MarkListActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/marksTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Placed Marks"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/marksRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/returnButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back To Menu" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.placemark"
+    namespace = "org.setu.placemark"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.placemark"
+        applicationId = "org.setu.placemark"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
@@ -32,8 +32,12 @@ android {
 }
 
 dependencies {
+    implementation("com.jakewharton.timber:timber:5.0.1")
+    implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.recyclerview)
     implementation(libs.material)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)

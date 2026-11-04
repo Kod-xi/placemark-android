@@ -8,7 +8,7 @@ import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import org.setu.placemark.models.PlacedMark
-import org.setu.placemarks.AppData
+import org.setu.placemark.AppData
 
 class AddEditActivity : AppCompatActivity() {
 

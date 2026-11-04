@@ -1,4 +1,4 @@
-package org.setu.placemarks
+package org.setu.placemark
 
 import org.setu.placemark.models.PlacemarkMemStore
 
