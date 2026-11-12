@@ -11,17 +11,20 @@ class PlacemarkMemStore : PlacemarkStore {
     }
 
     override fun create(placemark: PlacedMark) {
+        placemark.validate()
         placemark.id = lastId.incrementAndGet()
         placemarks.add(placemark)
     }
 
     override fun update(placemark: PlacedMark): Boolean {
+        placemark.validate()
         val foundPlacemark = findOne(placemark.id)
         return if (foundPlacemark != null) {
             foundPlacemark.title = placemark.title
             foundPlacemark.desc = placemark.desc
             foundPlacemark.x = placemark.x
             foundPlacemark.y = placemark.y
+            foundPlacemark.imageUri = placemark.imageUri
             true
         } else {
             false

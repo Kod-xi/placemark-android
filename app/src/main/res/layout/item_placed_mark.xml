@@ -28,16 +28,16 @@
         android:layout_height="wrap_content"
         android:text="TextView" />
 
-    <Button
-        android:id="@+id/editButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Edit" />
+<!--    <Button-->
+<!--        android:id="@+id/editButton"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Edit" />-->
 
-    <Button
-        android:id="@+id/deleteButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Delete" />
+<!--    <Button-->
+<!--        android:id="@+id/deleteButton"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Delete" />-->
 
 </LinearLayout>
